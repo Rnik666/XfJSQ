@@ -1,3 +1,11 @@
+/*
+
+[rewrite_local]
+^https?:\/\/xuanfeng\.jdijkbj\.cn\/vpn\/auto_login url script-response-body https://raw.githubusercontent.com/Rnik666/XfJSQ/main/XF
+[MITM]
+hostname = xuanfeng.jdijkbj.cn
+
+*/
 var daoshuya = JSON.parse($response.body);
 daoshuya = {
   "remark" : "成功",
