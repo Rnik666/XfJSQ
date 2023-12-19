@@ -1,0 +1,33 @@
+var daoshuya = JSON.parse($response.body);
+daoshuya = {
+  "remark" : "成功",
+  "result" : {
+    "kf_link" : "http://xkf.zhimakf.com/s/98626xezc?nickName=26794347",
+    "is_evade_address" : 0,
+    "vip_type" : 2,
+    "invite_valid" : true,
+    "is_new_user" : 0,
+    "isTodayVip" : 2,
+    "is_kf" : "on",
+    "ios_appstore" : 1,
+    "tools_help" : "on",
+    "type" : 1,
+    "session" : "d094ebd93550c59a2f35235f995bf9d4",
+    "id" : 26794347,
+    "is_audit_mode" : 0,
+    "share_count" : 19,
+    "pay_switch" : 2,
+    "every_day_time" : 60,
+    "is_flow_close" : 1,
+    "is_world_open" : 1,
+    "password" : "",
+    "vip_time" : 2,
+    "username" : ""
+  },
+  "code" : 200
+}
+
+
+
+};
+$done({ body: JSON.stringify(daoshuya) });
